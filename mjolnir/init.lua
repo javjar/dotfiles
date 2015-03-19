@@ -46,8 +46,8 @@ end
 
 local function shiftcenter()
   fun = function(f)
-    f.w = grid.GRIDWIDTH - 1
-    f.h = grid.GRIDHEIGHT - 1
+    f.w = grid.GRIDWIDTH - 2
+    f.h = grid.GRIDHEIGHT - 2
     f.x = 1
     f.y = 1
   end
